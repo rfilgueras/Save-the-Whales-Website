@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.64 85.47">
+
+<defs>
+<style>.cls-1{fill:#eef5f1;}.cls-2{fill:#282b40;}.cls-3{fill:#fc4349;}
+
+
+/*
+==========================
+Animation
+==========================
+*/
+.slide-in-elliptic-left-fwd {
+	-webkit-animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-elliptic-left-fwd {
+  0% {
+    -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+            transform: translateX(-800px) rotateY(30deg) scale(0);
+    -webkit-transform-origin: -100% 50%;
+            transform-origin: -100% 50%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+            transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 1800px 50%;
+            transform-origin: 1800px 50%;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-left-fwd {
+  0% {
+    -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+            transform: translateX(-800px) rotateY(30deg) scale(0);
+    -webkit-transform-origin: -100% 50%;
+            transform-origin: -100% 50%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+            transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 1800px 50%;
+            transform-origin: 1800px 50%;
+    opacity: 1;
+  }
+}
+
+
+
+.slide-in-elliptic-left-fwd2 {
+	-webkit-animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+	        animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+@-webkit-keyframes slide-in-elliptic-left-fwd {
+  0% {
+    -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+            transform: translateX(-800px) rotateY(30deg) scale(0);
+    -webkit-transform-origin: -100% 50%;
+            transform-origin: -100% 50%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+            transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 1800px 50%;
+            transform-origin: 1800px 50%;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-left-fwd {
+  0% {
+    -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+            transform: translateX(-800px) rotateY(30deg) scale(0);
+    -webkit-transform-origin: -100% 50%;
+            transform-origin: -100% 50%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+            transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 1800px 50%;
+            transform-origin: 1800px 50%;
+    opacity: 1;
+  }
+}
+
+
+
+.slide-in-elliptic-left-fwd3 {
+	-webkit-animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
+	        animation: slide-in-elliptic-left-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
+}
+@-webkit-keyframes slide-in-elliptic-left-fwd {
+  0% {
+    -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+            transform: translateX(-800px) rotateY(30deg) scale(0);
+    -webkit-transform-origin: -100% 50%;
+            transform-origin: -100% 50%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+            transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 1800px 50%;
+            transform-origin: 1800px 50%;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-left-fwd {
+  0% {
+    -webkit-transform: translateX(-800px) rotateY(30deg) scale(0);
+            transform: translateX(-800px) rotateY(30deg) scale(0);
+    -webkit-transform-origin: -100% 50%;
+            transform-origin: -100% 50%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotateY(0) scale(1);
+            transform: translateX(0) rotateY(0) scale(1);
+    -webkit-transform-origin: 1800px 50%;
+            transform-origin: 1800px 50%;
+    opacity: 1;
+  }
+}
+</style>
+</defs><title>whale2</title>
+<g id="Layer_2" data-name="Layer 2">
+<g id="thank_you_whale">
+
+<g id="whale2">
+<path id="belly" class="cls-1" d="M74.37,44.32C74.37,54.49,84,66.45,71,64.41,44.71,60.28,42.46,48.64,29.7,46c-10-2.05,7.7-20.1,20.85-20.1S74.37,34.16,74.37,44.32Z"/>
+<path id="body" class="cls-2" d="M128.43,64c-16.52,3.75-29.89,6.24-39.28,6.19-1.89,0,1.61-.73,5.12,2.44,5,4.53,10.89,13.39,8.63,12.76-29.66-8.26-30.54-25.22-33.21-26.7-34.31-19.06-43-16.47-43-16.47C26.64,22.18,27.86,10.71,35.33,4c5.32-4.8,31.92,13.81,41.29,15.77,0,0,16.9,30.41,42.05,34.91a20.33,20.33,0,0,0,22.15-13.14c2.73-6.95-12,2.81-9.76-19.52,1-10-1.57,4.52,6.38,6,6,1.12,7.2,7,7.68,6.75,2.3-.94,10.49-1.83,13.2-3.38,6.31-3.58,6.89-7.92,6-4.89-6,19.91-18.76,13.75-19.21,14.66C139.43,52.4,132.54,63.1,128.43,64Z"/>
+<path id="eyes" class="cls-1" d="M70.25,52.45s-2.57-3.52-4.64-3.52-1.94.65-1.94.65S63.51,48,65.58,48,70.25,52.45,70.25,52.45Z"/>
+
+<g id="hearts">
+<path id="big_heart" class="cls-3 slide-in-elliptic-left-fwd" d="M16.77,2.47c2.67,4.7-6,11.66-6,11.66S-.45,11.63,0,5.93C.63-1.62,8.4,4.32,8.4,4.32S13.07-4,16.77,2.47Z"/>
+<path id="medium_heart" class="cls-3 slide-in-elliptic-left-fwd2" d="M18.53,23.77c.26,2.66-5.1,4-5.1,4s-4.54-3.4-3.17-5.89c1.82-3.28,4.11,1,4.11,1S18.18,20.09,18.53,23.77Z"/>
+<path id="tiny_heart" class="cls-3 slide-in-elliptic-left-fwd3" d="M5.48,17.49c1.53,1.1-.22,4.57-.22,4.57s-3.9.83-4.59-1c-.9-2.48,2.43-1.73,2.43-1.73S3.37,16,5.48,17.49Z"/>
+</g>
+
+</g> <!-- whale2 -->
+</g> <!-- end of thank_you_whale -->
+</g> <!-- end of layer 2 -->
+</svg>
