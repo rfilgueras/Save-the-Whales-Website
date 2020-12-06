@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+	max-width: 1366px;
+	background-color: #FF4633;
+}
+.row {
+    background-color: #0F2D40;
+    text-align: center;
+    width: auto;
+}
+.no-gutters{
+	padding-right: 0;
+	padding-left: 0;
+}
+/* 
+===============================
+NAV
+===============================
+*/
+.nav-custom {
+	background-color: #FF4533;
+	padding: 0;
+	
+}
+.nav-link {
+	font-family: 'Oswald', sans-serif;
+	color: #fffdfc;
+	letter-spacing: .02em;
+	margin-left: 2.5em;
+}
+
+.nav-link:hover {
+	color: #94b4cb;
+}
+.active {
+	color: #121729;
+}
+.navbar-nav {
+	margin: 0 auto;
+}
+#logo {
+	width: 50%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+#content {
+	background-color: #fffdfc;
+}
+.navbar-toggler-icon {
+	padding-top: .1em;
+	width: 1.2em;
+}
+/* 
+===============================
+Whales Intro
+===============================
+*/
+h2 {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	letter-spacing: 0.3em;
+	text-shadow: 4px 4px #121729;
+	color: #FFFDFC;
+	font-size: 3.1em;
+}
+
+#endangered {
+	background-color: #121728;
+}
+
+#whales_row_one, #whales_row_two{
+	background-color: #fffdfc;
+	padding: 2em;
+}
+
+#cta {
+	background-color: #121729;
+	padding: 3em;
+}
+
+#cta p {
+	color: #fffdfc;
+	
+}
+/* 
+===============================
+buttons
+===============================
+*/
+#killer_w, #west_gray, #beluga, #north_gray, #right_w, #bowhead, #blue, #sei, #sperm_w, #fin_w{
+	background-color: rgba(255,253,252, 0.0);
+	border: none;
+}
+
+.hover {
+	padding-top: 3em;
+	padding-bottom: 1.5em;
+	transition: transform 0.5s;
+}
+
+.btn-secondary{
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	background-color: rgba(19,23,41,1.00);
+	border-style: hidden;
+	padding: .5em 1em;
+}
+/* 
+===============================
+buttons animation
+===============================
+*/
+.hover:hover {
+	transform: scale(1.3);
+}
+#killer_w:hover, #west_gray:hover, #beluga:hover, #north_gray:hover, #right_w:hover, #bowhead:hover, #blue:hover, #sei:hover, #sperm_w:hover, #fin_w:hover{
+	background-color: rgba(255,253,252, 0.0);
+}
+
+/*
+===============================
+Whale Modal
+===============================
+*/
+h4, .whale_title {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+.whale_title{
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+.whale_list {
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+h3 {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	color: #FF4633;
+	font-size:2.5em;
+}
+/*
+===============================
+Donate
+===============================
+*/
+#donate {
+	padding: 2em;
+	
+}
+#form1 {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	font-weight: 800;
+	font-size: .9em;
+	letter-spacing: .2em;
+	background-color: #f50915;
+}
+#panel{
+	background-color: #0F2D40;
+}
+.sm-icon {
+    padding-top: 1em;
+    width: 1.5em;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#headingOne1 {
+	background-color: rgba(15,45,64,1.00);
+	border-bottom-color: #0F2D40;
+}
+
+.card-body {
+	background-color: rgba(15,45,64,1.00);
+	color: #fffdfc;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card_icon {
+	width: 2.5em;
+}
+
+.card {
+	border-color: #0F2D40;
+}
+
+.input-group-addon{
+	padding-left: 1em;
+}
+
+.form-control{
+	border-radius: 5px;
+}
+
+#submit{
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	font-weight: 800;
+	font-size: .9em;
+	letter-spacing: .2em;
+	margin: 2em auto;
+}
+#donate article {
+	padding-top: 1em;
+	background-color: #0F2D40;
+}
+article p{
+	font-size: .8em;
+}
+/* 
+===============================
+Footer
+===============================
+*/
+#footer {
+	font-family: 'Oswald', sans-serif;
+	background-color: #FF4533;
+	text-align: left;
+	font-size: .8em;
+	padding: 1em;
+}
+#thank_you {
+	font-family: 'Montserrat', sans-serif;
+}
+/* 
+===============================
+phone css
+===============================
+*/
+@media only screen and (max-width: 575.98px){
+	#logo{
+		width: 80%;
+	}
+	h2 {
+		padding: 0;
+	}
+	.hover:hover {
+	transform: none;
+}		
+}
+@media only screen and (max-width: 767.98px){
+	.hover:hover {
+	transform: none;
+}	
+	.whale_title {
+		font-size: 2.5em;
+		}
+}
+@media only screen and (max-width: 991.98px){
+	.hover:hover {
+		transform: none;
+}	
+	.whale_title {
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 1199.98px){
+	#killer_w, #west_gray, #beluga, #north_gray, #right_w, #bowhead, #blue, #sei, #sperm_w, #fin_w {
+		padding-top: 3em;
+	}
+}	

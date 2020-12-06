@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+	max-width: 1366px;
+	background-color: #FF4633;
+}
+.row {
+    background-color: #0F2D40;
+    text-align: center;
+    width: auto;
+}
+.no-gutters{
+	padding-right: 0;
+	padding-left: 0;
+}
+/* 
+===============================
+NAV
+===============================
+*/
+.nav-custom {
+	background-color: #FF4533;
+	padding: 0;
+	
+}
+.nav-link {
+	font-family: 'Oswald', sans-serif;
+	color: #fffdfc;
+	letter-spacing: .02em;
+	margin-left: 2.5em;
+}
+
+.nav-link:hover {
+	color: #94b4cb;
+}
+.active {
+	color: #121729;
+}
+.navbar-nav {
+	margin: 0 auto;
+}
+#logo {
+	width: 50%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.navbar-toggler-icon {
+	padding-top: .1em;
+	width: 1.2em;
+}
+
+/* 
+===============================
+Intro
+===============================
+*/
+
+.media-object-default{
+	padding: 2%;
+}
+#body article p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+#borderimg1{
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left-style: hidden !important;
+	border-right-style: hidden !important;
+	-webkit-border-image: url("../images/border.png") 30 round;
+	-moz-border-image: url("../images/border.png") 30 round;
+	-o-border-image: url("../images/border.png") 30 round;
+	border-image: url("../images/border.png") 30 round;
+	padding: 3.8% 1%;
+	
+}
+#body {
+	background-color: #fffdfc;
+	padding: 2em 0;
+}
+#whale {
+	width: 75%;
+	
+}
+h2 {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	letter-spacing: 0.5em;
+	padding-bottom: 1em;
+	font-size: 2.3em;
+}
+strong {
+	color: #f50915;
+}
+p {
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+}
+/* 
+===============================
+About & Mission
+===============================
+*/
+#about {
+	background-color: #94b4cb;
+	color: #121729;
+	padding: 2em;
+}
+
+#mission {
+	background-color: #121729;
+	color: #fffdfc;
+	padding: 2.5em 2em;
+}
+#about h3, #mission h3{
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	padding-bottom:.5em;
+}
+#about h3 {
+	text-align: left;
+}
+#mission h3{
+	text-align: right;
+}
+
+#about p, #mission p{
+	width: 80%;
+}
+#mission p{
+	text-align: right; 
+}
+
+/* 
+===============================
+Donate
+===============================
+*/
+#donate {
+	padding: 2em;
+	
+}
+#form1 {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	font-weight: 800;
+	font-size: .9em;
+	letter-spacing: .2em;
+	background-color: #f50915;
+}
+#panel{
+	background-color: #0F2D40;
+}
+.sm-icon {
+    padding-top: 1em;
+    width: 1.5em;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#headingOne1 {
+	background-color: rgba(15,45,64,1.00);
+	border-bottom-color: #0F2D40;
+}
+
+.card-body {
+	background-color: rgba(15,45,64,1.00);
+	color: #fffdfc;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card_icon {
+	width: 2.5em;
+}
+
+.card {
+	border-color: #0F2D40;
+}
+
+.input-group-addon{
+	padding-left: 1em;
+}
+
+.form-control{
+	border-radius: 5px;
+}
+
+#submit{
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+	font-weight: 800;
+	font-size: .9em;
+	letter-spacing: .2em;
+	margin: 2em auto;
+}
+article {
+	padding-top: 1em;
+}
+article p{
+	font-size: .8em;
+}
+#thank_you {
+	font-family: 'Montserrat', sans-serif;
+}
+/* 
+===============================
+Footer
+===============================
+*/
+#footer {
+	font-family: 'Oswald', sans-serif;
+	background-color: #FF4533;
+	text-align: left;
+	font-size: .8em;
+	padding: 1em;
+}
+.btn-secondary{
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	background-color: rgba(19,23,41,1.00);
+	border-style: hidden;
+	padding: .5em 1em;
+}
+#thank_you h3 {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+	color: #FF4633;
+	font-size:2.5em;
+}
+/* 
+===============================
+mobile css
+===============================
+*/
+@media only screen and (max-width:480px) {
+	strong {
+		letter-spacing: .09em;
+	}
+	h2 {
+		font-size: 2.3em;
+	}
+	
+}
+@media only screen and (max-width: 575.98px){
+	#whale {
+		margin: 2em 0 3em;
+	}
+	#body article{
+		padding: 2em 3em;
+	}
+
+	#logo {
+		width: 80%;
+	}
+	#mission h3{
+		padding: 0 em;
+	}
+}
+@media only screen and (max-width: 767.98px){
+	#whale {
+		margin: 2em 0 3em;
+	}
+	#body article{
+		padding: 2em 3em;
+	}
+}
+@media only screen and (max-width: 991.98px){
+	#whale {
+		margin: 2em 0 3em;
+	}
+	#body article{
+		
+		padding: 2em 3em;
+	}
+	#about h3,#mission h3 {
+		font-size: 2.5em;
+	}
+	#mission h3 {
+		padding-right: 1.5em;
+	}
+	#about p{
+		padding-left: 6em;
+	}
+}
+@media only screen and (max-width: 1199.98px){
+	#whale {
+		margin:  5em 0;
+	}
+	#body article{
+		padding: 2em 3em;
+	}
+	#about, #mission {
+		padding: 1.6em 1em;
+	}
+}
